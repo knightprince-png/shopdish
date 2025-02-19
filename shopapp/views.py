@@ -8,3 +8,6 @@ def home(request):
 
 def images(request):
     return render(request,'gallery.html')
+
+def about(request):
+    return render(request,'about.html')

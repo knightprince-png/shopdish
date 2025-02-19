@@ -8,20 +8,36 @@
     <title>Gallery</title>
 
     {% load static %}
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
 
+        h1:hover{
+            background-color: #3875d7;
+        }
+
+        img{
+            width: 200px;
+            height: 180px;
+        }
+    </style>
 </head>
 <body>
+
+<a href="{% url 'about' %}">About</a>
 
 
 <h1>PRODUCTS OFFERED AT SHOPDISH </h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis cum dolor dolorem harum illum ipsam maiores, nobis non officiis pariatur, quidem quisquam recusandae rem saepe tempora tenetur, voluptate! Assumenda.</span><span>A accusamus alias, amet autem corporis debitis, eum ex fuga ipsa nam natus non nostrum praesentium quos sit tenetur unde! Aliquid culpa cum fugiat modi natus nemo nihil quae voluptatum.</span></p>
-<marquee behavior="" direction="down"><img src="{% static 'assets/img_1.png' %}" alt=""></marquee>
-<marquee behavior="alternate" direction="right"><img src="{% static 'assets/img_2.png' %}" alt=""></marquee>
-<marquee behavior="" direction=""><img src="{% static 'assets/img_4.png' %}" alt=""></marquee>
-<marquee behavior="" direction="up"><img src="{% static 'assets/img_5.png' %}" alt=""></marquee>
-<marquee behavior="" direction="down"><img src="{% static 'assets/img_6.png' %}" alt=""></marquee>
-<marquee behavior="" direction="right"><img src="{% static 'assets/img_7.png' %}" alt=""></marquee>
-
+<img src="{% static 'assets/img_1.png' %}" alt="">
+<img src="{% static 'assets/img.png' %}" alt="">
+<img src="{% static 'assets/img_3.png' %}" alt="">
+<img src="{% static 'assets/img_5.png' %}" alt="">
+<img src="{% static 'assets/img_7.png' %}" alt="">
+<img src="{% static 'assets/img_6.png' %}" alt="">
 
 
 

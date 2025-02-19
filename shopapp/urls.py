@@ -4,6 +4,7 @@ from shopapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.home),
-    path('gallery/', views.images),
+    path('', views.home, name='home'),
+    path('gallery/', views.images, name='gallery'),
+    path('about/', views.about, name='about'),
 ]
