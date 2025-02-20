@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/registration.css' %}">
+
+
+</head>
+<body>
+
+<form action="">
+
+    <legend>Registration Form</legend>
+    <br><br>
+            <label for="firstname">First Name</label>
+        <input type="text" id="firstname">
+    <br><br>
+
+
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname">
+
+    <br><br>
+            <label for="Email">Email</label>
+            <input type="email" id="Email">
+    <br><br>
+
+            <label for="passw">Password</label>
+            <input type="password" id="passw">
+
+    <br><br>
+    <label for="passw">Re-type password</label>
+    <input type="password" id="passw">
+    <br><br>
+    <label for="con">Contact</label>
+    <input type="text" id="con">
+
+    <br><br>
+    <label for="gen">Gender</label>
+    <select name="" id="gen">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+
+        
+    </select>
+    <br><br>
+<button>Submit</button>
+
+
+
+
+</form>
+
+
+
+
+</body>
+</html>

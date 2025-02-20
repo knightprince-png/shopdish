@@ -11,3 +11,9 @@ def images(request):
 
 def about(request):
     return render(request,'about.html')
+
+def registarion(request):
+    return render(request,'Registration.html')
+
+def products(request):
+    return render(request,'products.html')
